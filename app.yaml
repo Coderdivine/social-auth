@@ -1,0 +1,6 @@
+# [START app.yaml]
+runtime: nodejs18
+# In your app.yaml, add the following:
+runtime_config:
+  disable_cache: true
+

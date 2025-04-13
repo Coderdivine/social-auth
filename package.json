@@ -5,10 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "test": "nodemon src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "nodemon src/index.js"
   },
   "keywords": [
-    "TelegramLogin"
+    "TelegramLogin",
+    "X Authentication Example"
   ],
   "author": "Chimdi",
   "license": "ISC",
@@ -22,6 +24,7 @@
     "mongoose": "^8.12.1",
     "nodemon": "^3.1.9",
     "redis": "^4.7.0",
-    "twitter-api-v2": "^1.20.2"
+    "twitter-api-v2": "^1.22.0",
+    "twitter-v2": "^1.1.0"
   }
 }
